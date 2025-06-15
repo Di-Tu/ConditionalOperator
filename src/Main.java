@@ -5,12 +5,11 @@ public class Main {
 //        Задача №1
         System.out.println();
         System.out.println("         Задача №1");
-        short age = 128;
+        short age = 17;
         System.out.print("Если возраст человека равен " + age + ", то ");
         if (age >= 18) {
             System.out.println("но совершеннолетний.");
-        }
-        if (age < 18) {
+        } else {
             System.out.println("он не достиг совершеннолетия, нужно немного подождать.");
         }
 
@@ -21,20 +20,18 @@ public class Main {
         System.out.print("На улице " + temperature + " градусов, ");
         if (temperature <= 5) {
             System.out.println("нужно надеть шапку.");
-        }
-        if (temperature > 5) {
+        } else {
             System.out.println("можно идти без шапки.");
         }
 
         //        Задача №3
         System.out.println();
         System.out.println("         Задача №3");
-        short speed = 83;
+        short speed = 40;
         System.out.print("Если скорость " + speed + ", то ");
         if (speed >= 60) {
             System.out.println("придется заплатить штраф.");
-        }
-        if (speed < 60) {
+        } else {
             System.out.println("можно ездить спокойно.");
         }
 
